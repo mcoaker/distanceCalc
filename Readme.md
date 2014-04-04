@@ -6,7 +6,7 @@ Consumes the Google API Matrix.
 
 Currently deployed to Heroku.
 
-Usage: http://lit-depths-7101.herokuapp.com/distance?from=<place>&to=<place1>|..|<placeN>
+Usage: http://lit-depths-7101.herokuapp.com/distance?from=place&to=place1|..|placeN
 
 Example: http://lit-depths-7101.herokuapp.com/distance?from=buenos+aires&to=mar+del+plata|villa+gesell
 
