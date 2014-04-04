@@ -1,6 +1,6 @@
 module.exports = {
   //----- Configurable parameters ---------
-  IP_ADDR: '127.0.0.1',
+  IP_ADDR: '0.0.0.0',
   PORT: '8080',
 
   GOOGLE_KEY: 'AIzaSyDIgyYbjx3uWO82ikvlos1EQw2S14DtDhs',
