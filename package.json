@@ -1,0 +1,11 @@
+{
+  "name": "distanceCalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "restify": "*",
+    "request": "~2.30.0",
+    "moment": "~2.4.0"
+  }
+}
