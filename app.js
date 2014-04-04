@@ -11,7 +11,10 @@ server
   .use(restify.bodyParser())
   .use(restify.queryParser());
 
-server.listen(constants.PORT ,constants.IP_ADDR, function(){
+var port = process.env.PORT || constants.PORT;
+var ip_addr = constants.IP_ADDR;
+
+server.listen(port, ip_addr, function(){
     console.log('%s listening at %s ', server.name , server.url);
 });
 
